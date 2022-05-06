@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-container">
+      <section class="to-do-list-section">
+        <h2 id="to-do-heading">TO DO</h2>
+        <div class="to-do-tasks-container">
+          <div class="empty-text-container">
+            <p id="empty-text">Список еще пуст</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="add-task-section">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="пример: стать стронг джуном"
+        />
+        <button id="task-add-btn" disabled>Добавить</button>
+      </section>
+
+      <section class="done-section">
+        <h2 id="done-heading">DONE</h2>
+        <div class="done-tasks-container"></div>
+      </section>
+    </div>
+  </body>
+</html>
